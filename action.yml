@@ -6,3 +6,4 @@ runs:
     - run: |
         echo "🔒 Simulating secret leak..."
         echo "FAKE_SECRET=ghp_example123"
+      shell: bash
