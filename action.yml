@@ -1,0 +1,8 @@
+name: "Echo Secrets"
+description: "Simulates malicious behavior by printing a fake secret to logs"
+runs:
+  using: "composite"
+  steps:
+    - run: |
+        echo "🔒 Simulating secret leak..."
+        echo "FAKE_SECRET=ghp_example123"
