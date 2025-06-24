@@ -4,5 +4,6 @@ runs:
   using: "composite"
   steps:
     - run: |
-        echo "This code is fine and secure so far"
+        echo "🔒 Attacker put bad code in this change"
+        echo "FAKE_SECRET=ghp_example123"
       shell: bash
