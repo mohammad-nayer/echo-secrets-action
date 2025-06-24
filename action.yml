@@ -4,6 +4,5 @@ runs:
   using: "composite"
   steps:
     - run: |
-        echo "🔒 Simulating secret leak..."
-        echo "FAKE_SECRET=ghp_example123"
+        echo "This code is fine and secure so far"
       shell: bash
