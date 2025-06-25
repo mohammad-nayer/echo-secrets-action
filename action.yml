@@ -4,6 +4,5 @@ runs:
   using: "composite"
   steps:
     - run: |
-        echo "❌💀 Attacker put bad code in this change"
-        echo "FOUND_SECRETS=dGhpcyBpcyBhIGZha2Ugc2VjcmV0IGJ1dCBJIGhhZCB0byBtYWtlIGl0IGxvbmdlciBzbyBpdCBsb29rcyBsZWdpdCB3aGVuIGJhc2UgNjQgZW5jb2RlZA=="
+        echo "🔒 This code is fine and secure so far"
       shell: bash
